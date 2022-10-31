@@ -1,0 +1,34 @@
+# Create index.html
+name: create index
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  create:
+    name: Create
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+    - name: Run pandoc
+      uses: docker://pandoc/core:2.14.2    
+      with:
+        args: >-                               
+          -s
+          -t revealjs
+          --slide-level=3
+          --variable theme="moon"
+          --output=index.html
+          index.md
+    - name: make local
+      run : ./local.sh index.html
+    - name: git commit
+      run: |
+          git config --global user.name 'indexbot_53845714'
+          git config --global user.email 'indexbot_53845714@users.noreply.github.com'
+          git add index.html
+          git commit -m "new index.html"
+          git push
