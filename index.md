@@ -1,5 +1,5 @@
 ---
-title: Hassel of the year
+title: Hassel of the Week
 author: Sebastian Feustel
 ---
 
@@ -49,13 +49,13 @@ Yes, but that's not my problem.
 ### 2. Advice: Update your app
 ![](img/support2.png)
 
-### 
-![](img/meme2.jpg)
+### I gave up
 
 ## Fix
 
-### 
+### Easy fix
 ![](img/meme3.jpg)
 
-
-### After almost a year, the heatmap is back.
+### Best fix 
+- After almost a year, the heatmap is back.
+- And it works again.
