@@ -39,7 +39,7 @@ author: Sebastian Feustel
 Yes, but that's not my problem.
 
 ### Heatmap
-![](img/heatmap.png)
+![](img/heatmap2.png)
 
 ## contact support  
 
