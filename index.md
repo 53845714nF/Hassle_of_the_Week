@@ -9,6 +9,7 @@ author: Sebastian Feustel
 ## Overview
   - System that I use.
   - Where did I have problems?
+  - Fix
 
 ## Withings
   - Some smart health devices 
