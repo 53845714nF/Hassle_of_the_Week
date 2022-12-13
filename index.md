@@ -16,6 +16,7 @@ author: Sebastian Feustel
   - Track some vital parameters
   - Possibility to access via app or website
 
+Does anyone know them?
 
 ### Sleep Analyzer
 ![](img/sleep-analyzer.jpg)
@@ -60,3 +61,9 @@ Yes, but that's not my problem.
 ### Best fix 
 - After almost a year, the heatmap is back.
 - And it works again.
+
+### My fix
+A small smart phone widget or addon for the taskbar.
+
+## Thank you for your attention
+Do you know other systems that might work better (preferably cloud loose)?
